@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kz.kase.terminal.MainActivity">
+    <item
+        android:id="@+id/menu_action_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search_24dp"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_action_add_favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite_off"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_action_remove_favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite_on"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_action_new_order"
+        android:title="@string/order"
+        android:icon="@drawable/ic_add"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_action_add_deal"
+        android:title="@string/deal"
+        android:icon="@drawable/ic_add"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom" />
+</menu>

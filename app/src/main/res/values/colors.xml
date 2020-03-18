@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF8FAFB</color>
+    <color name="colorPrimaryDark">#FFEEF3F5</color>
+    <color name="colorAccent">#FFD81B60</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorGreenDark">#FF207D3D</color>
+    <color name="colorGreenLight">#FF9CBF2A</color>
+    <color name="colorGreenMiddle">#4FA63C</color>
+
+    <color name="colorGreyDark">#2D2C2D</color>
+    <color name="colorGreyLight">#979797</color>
+    <color name="colorGreyMiddle">#5D5A5F</color>
+    <color name="colorGreyEasiest">#E3E3E3</color>
+
+    <color name="colorRed">#FFA6413C</color>
+    <color name="colorOrange">#EFA907</color>
+    <color name="colorBlue">#FF3B91E6</color>
+    <color name="colorBlueDark">#FF1704DE</color>
+
+    <color name="colorStockTable">#FFF8FAFB</color>
+    <color name="colorStockTableDark">#FFEEF3F5</color>
+
+    <color name="colorOrderSell">#F6B7B2</color>
+    <color name="colorOrderBuy">#FFAEECAB</color>
+
+</resources>

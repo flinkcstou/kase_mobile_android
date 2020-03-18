@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/narrow_bold"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textColor="@color/colorGreyMiddle"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/narrow"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="АО Народный банк"
+        android:textColor="@color/colorBlueDark"
+        android:textSize="13dp" />
+</LinearLayout>

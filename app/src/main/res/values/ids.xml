@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="table_header_left" type="id"/>
+    <item name="horizontal_header" type="id"/>
+    <item name="vertical_left_fixed" type="id"/>
+    <item name="vertical_data" type="id"/>
+</resources>

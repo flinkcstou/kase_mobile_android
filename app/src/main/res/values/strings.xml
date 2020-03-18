@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">KASE</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Главная</string>
+    <string name="news">Новости</string>
+    <string name="trend">Аналитика</string>
+    <string name="portfolio">Портфель</string>
+    <string name="order">Заявка</string>
+    <string name="orders">Заявки</string>
+    <string name="ntf">Уведомления</string>
+    <string name="calc">Калькулятор доходности</string>
+    <string name="links">Ссылки KASE</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="search">Поиск</string>
+    <string name="test">Test</string>
+    <string name="favorite">Избранное</string>
+    <string name="ads">Ads</string>
+    <string name="empty"> </string>
+    <string name="last">Last</string>
+    <string name="ask">Ask</string>
+    <string name="bid">Bid</string>
+    <string name="date_delay">Задержка данных: +15</string>
+
+    <string name="open">Откр.</string>
+    <string name="deals">Сделок</string>
+    <string name="volume">Объём</string>
+    <string name="trend_">Тренд</string>
+    <string name="avg">AVG</string>
+    <string name="max">Мах</string>
+    <string name="min">Мин</string>
+    <string name="trade_status">Сост. Торг.</string>
+    <string name="last_trade">Пос. Сд.</string>
+
+    <string name="quotes">Котироки</string>
+    <string name="chart">График</string>
+    <string name="inf">Инфо.</string>
+    <string name="quote_depth">Глубина стакана</string>
+    <string name="direction">Направление</string>
+    <string name="order_type">Тип заявки</string>
+    <string name="price">Цена</string>
+    <string name="qty">Кол-во</string>
+    <string name="expire_date">Дата истечения</string>
+    <string name="send_order">Отправить заявку</string>
+    <string name="cancel">Отмена</string>
+    <string name="selling">ПРОДАЖА</string>
+    <string name="buying">ПОКУПКА</string>
+    <string name="limit">LIMIT</string>
+    <string name="market">MARKET</string>
+    <string name="editorial">Редакционные</string>
+    <string name="kase_news">Новости KASE</string>
+
+    <string name="active">Активные</string>
+    <string name="executed">Исполненные</string>
+    <string name="canceled">Отмененные</string>
+
+    <string name="position">Позиции</string>
+    <string name="deals_">Сделки</string>
+    <string name="deal">Сделка</string>
+    <string name="archive">Архив</string>
+
+    <string name="curr_value">Текущая стоимость:</string>
+    <string name="curr_income">Текущий доход:</string>
+    <string name="curr_dividends">Девиденты:</string>
+
+    <string name="potential_value">Потенциальная стоимость:</string>
+    <string name="potential_income">Потенциальный доход:</string>
+    <string name="coupon_received">Полученный купон:</string>
+    <string name="deal_date">Дата сделки</string>
+    <string name="archive_deal">Архивная сделка</string>
+    <string name="save">Сохранить</string>
+
+    <string name="opinion">Мнения</string>
+    <string name="market_review">Обзор рынка</string>
+
+</resources>

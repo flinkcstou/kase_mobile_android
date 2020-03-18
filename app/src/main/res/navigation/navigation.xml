@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="kz.kase.terminal.ui.fragment.HomePageFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_tab">
+
+        <action
+            android:id="@+id/action_details"
+            app:destination="@id/details_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_web_view"
+            app:destination="@id/web_view_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="kz.kase.terminal.ui.fragment.DetailsFragment"
+        android:label="@string/empty"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_web_view"
+            app:destination="@id/web_view_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_new_order"
+            app:destination="@id/new_order_dialog"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/news_fragment"
+        android:name="kz.kase.terminal.ui.fragment.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_table">
+        <action
+            android:id="@+id/action_web_view"
+            app:destination="@id/web_view_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/trend_fragment"
+        android:name="kz.kase.terminal.ui.fragment.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_table">
+        <action
+            android:id="@+id/action_web_view"
+            app:destination="@id/web_view_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/web_view_fragment"
+        android:name="kz.kase.terminal.ui.fragment.WebViewFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_web_view">
+    </fragment>
+    <fragment
+        android:id="@+id/portfolio_fragment"
+        android:name="kz.kase.terminal.ui.fragment.PositionFragment"
+        android:label="@string/portfolio"
+        tools:layout="@layout/fragment_portfolio">
+    </fragment>
+    <fragment
+        android:id="@+id/new_order_dialog"
+        android:name="kz.kase.terminal.ui.dialog.NewOrderDialog"
+        android:label="@string/order"
+        tools:layout="@layout/dialog_new_order">
+    </fragment>
+    <fragment
+        android:id="@+id/orders_fragment"
+        android:name="kz.kase.terminal.ui.fragment.OrderFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/fragment_tab">
+    </fragment>
+    <fragment
+        android:id="@+id/trade_fragment"
+        android:name="kz.kase.terminal.ui.fragment.FavoriteFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_table">
+        <argument
+            android:name="argument"
+            android:defaultValue="value"
+            />
+        <!--action
+            android:id="@+id/action_garden_fragment_to_plant_detail_fragment"
+            app:destination="@id/plant_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" /-->
+    </fragment>
+    <fragment
+        android:id="@+id/links_fragment"
+        android:name="kz.kase.terminal.ui.fragment.WebViewFragment"
+        android:label="@string/links"
+        tools:layout="@layout/fragment_table">
+        <argument
+            android:name="url"
+            android:defaultValue="https://kase.kz/ru/"
+            />
+        <!--action
+            android:id="@+id/action_garden_fragment_to_plant_detail_fragment"
+            app:destination="@id/plant_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" /-->
+    </fragment>
+    <fragment
+        android:id="@+id/about_fragment"
+        android:name="kz.kase.terminal.ui.fragment.WebViewFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_table">
+        <argument
+            android:name="url"
+            android:defaultValue="https://kase.kz/ru/"
+            />
+        <!--action
+            android:id="@+id/action_garden_fragment_to_plant_detail_fragment"
+            app:destination="@id/plant_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" /-->
+    </fragment>
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="kz.kase.terminal.ui.fragment.EmptyFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_table">
+
+        <!--action
+            android:id="@+id/action_garden_fragment_to_plant_detail_fragment"
+            app:destination="@id/plant_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" /-->
+    </fragment>
+    <!--fragment
+        android:id="@+id/plant_list_fragment"
+        android:name="com.google.samples.apps.sunflower.PlantListFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_plant_list">
+
+        <action
+            android:id="@+id/action_plant_list_fragment_to_plant_detail_fragment"
+            app:destination="@id/plant_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/plant_detail_fragment"
+        android:name="com.google.samples.apps.sunflower.PlantDetailFragment"
+        android:label="@string/order"
+        tools:layout="@layout/fragment_plant_detail">
+        <argument
+            android:name="plantId"
+            app:argType="string" />
+    </fragment-->
+
+</navigation>

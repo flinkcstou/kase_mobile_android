@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_fragment" android:icon="@drawable/ic_home" android:title="@string/home"/>
+        <item android:id="@+id/news_fragment" android:icon="@drawable/ic_news" android:title="@string/news" app:actionViewClass="android.widget.TextView"/>
+        <item android:id="@+id/trend_fragment" android:icon="@drawable/ic_trade" android:title="@string/trend" app:actionViewClass="android.widget.TextView"/>
+        <item android:id="@+id/portfolio_fragment" android:icon="@drawable/ic_portfolio" android:title="@string/portfolio" app:actionViewClass="android.widget.TextView"/>
+        <item android:id="@+id/orders_fragment" android:icon="@drawable/ic_order" android:title="@string/orders"/>
+        <item android:id="@+id/menu_ntf" android:icon="@drawable/ic_ntf" android:title="@string/ntf" app:actionViewClass="android.widget.TextView"/>
+        <item android:id="@+id/menu_calc" android:icon="@drawable/ic_calc" android:title="@string/calc"/>
+        <item android:id="@+id/links_fragment" android:icon="@drawable/ic_links" android:title="@string/links"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/settings_fragment" android:icon="@drawable/ic_settings" android:title="@string/settings"/>
+        <item android:id="@+id/about_fragment" android:icon="@drawable/ic_about" android:title="@string/about"/>
+    </group>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/narrow_bold"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="CCBN"
+        android:textColor="@color/colorGreyMiddle"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/time_icon"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0"
+            android:background="@drawable/ic_time_stock"
+            android:foregroundGravity="left" />
+
+        <TextView
+            android:id="@+id/bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/narrow_bold"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="23.09.21 12:04"
+            android:textColor="@color/colorGreyLight"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+</LinearLayout>
